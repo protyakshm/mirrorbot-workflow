@@ -56,7 +56,7 @@ jobs:
               cd loop
               echo "1" >> loop.txt
               git add loop.txt
-              git commit -m "Workflow : Loop"
+              git commit -m "reboot bot"
               expect -c "
               spawn git push -f 
               expect \"Username\"
